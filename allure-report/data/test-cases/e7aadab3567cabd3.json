@@ -1,0 +1,159 @@
+{
+  "uid" : "e7aadab3567cabd3",
+  "name" : "test",
+  "fullName" : "AppTest.test",
+  "historyId" : "8b4486bdcf1f2089f2458f8e136f27e5",
+  "time" : {
+    "start" : 1564425111387,
+    "stop" : 1564425116509,
+    "duration" : 5122
+  },
+  "status" : "broken",
+  "statusMessage" : "java.lang.NullPointerException",
+  "statusTrace" : "java.lang.NullPointerException\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat a.k.b(Unknown Source)\r\n\tat Aeye.takeAppScreenshot(Unknown Source)\r\n\tat AppTest.test(AppTest.java:9)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1564425091038,
+      "stop" : 1564425111230,
+      "duration" : 20192
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUpBeforeClass",
+    "time" : {
+      "start" : 1564425091003,
+      "stop" : 1564425091028,
+      "duration" : 25
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownAfterClass",
+    "time" : {
+      "start" : 1564425116751,
+      "stop" : 1564425116751,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1564425116755,
+      "stop" : 1564425120548,
+      "duration" : 3793
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "AppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AppTest"
+  }, {
+    "name" : "host",
+    "value" : "E0438480"
+  }, {
+    "name" : "thread",
+    "value" : "16468@E0438480.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "APPIUM_VERSION",
+    "value" : "1.9.1"
+  }, {
+    "name" : "AUTOMATION_NAME",
+    "value" : "Appium"
+  }, {
+    "name" : "DEVICE_NAME",
+    "value" : "emulator-5554"
+  }, {
+    "name" : "PLATFORM_NAME",
+    "value" : "Android"
+  }, {
+    "name" : "PLATFORM_VERSION",
+    "value" : "7"
+  }, {
+    "name" : "appActivity",
+    "value" : "com.vodafone.aeyejenkins.MainActivity"
+  }, {
+    "name" : "appPackage",
+    "value" : "com.vodafone.aeyejenkins"
+  }, {
+    "name" : "bundleId",
+    "value" : ""
+  }, {
+    "name" : "host",
+    "value" : "http://127.0.0.1:4723/wd/hub"
+  }, {
+    "name" : "platform",
+    "value" : "native-android"
+  }, {
+    "name" : "udid",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7aadab3567cabd3.json",
+  "parameterValues" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+}

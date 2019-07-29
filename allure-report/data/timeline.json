@@ -1,0 +1,230 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "E0438480",
+    "children" : [ {
+      "name" : "8572@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "21c734b0b37f56a4",
+        "parentUid" : "1fb95c75ebf21341af43ae2dff8a7d71",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564424839987,
+          "stop" : 1564424845194,
+          "duration" : 5207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "1fb95c75ebf21341af43ae2dff8a7d71"
+    }, {
+      "name" : "17588@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "8ce895cffeeffe64",
+        "parentUid" : "fdc85f712c9adb4252b0fa65a26ff0be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564425195155,
+          "stop" : 1564425200416,
+          "duration" : 5261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "fdc85f712c9adb4252b0fa65a26ff0be"
+    }, {
+      "name" : "20740@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "e31b9a169f2dc00c",
+        "parentUid" : "8cda016e4eca4bd8ce5a841051f6c3e6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564424668139,
+          "stop" : 1564424673270,
+          "duration" : 5131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "8cda016e4eca4bd8ce5a841051f6c3e6"
+    }, {
+      "name" : "17048@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "be6889eeea421262",
+        "parentUid" : "23ad089bddda24698226aa0cd4e30d02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564425378483,
+          "stop" : 1564425384046,
+          "duration" : 5563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "23ad089bddda24698226aa0cd4e30d02"
+    }, {
+      "name" : "22464@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "f0e484d24ae0810e",
+        "parentUid" : "08eff2825081eea58ee658e35e9a9440",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564439431413,
+          "stop" : 1564439437939,
+          "duration" : 6526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "08eff2825081eea58ee658e35e9a9440"
+    }, {
+      "name" : "16468@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "e7aadab3567cabd3",
+        "parentUid" : "c8643cca5ffc70e3f171dc8a3108db57",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564425111387,
+          "stop" : 1564425116509,
+          "duration" : 5122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "c8643cca5ffc70e3f171dc8a3108db57"
+    }, {
+      "name" : "21276@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "94d9ee26be172369",
+        "parentUid" : "cc7364d0048b96b57a00e91dde1489d8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564439259973,
+          "stop" : 1564439268655,
+          "duration" : 8682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "cc7364d0048b96b57a00e91dde1489d8"
+    }, {
+      "name" : "22060@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "7e9e51d04ac698a6",
+        "parentUid" : "63d5632ee73d6a7cd10f995e6efc83ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564424076605,
+          "stop" : 1564424076625,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "63d5632ee73d6a7cd10f995e6efc83ea"
+    }, {
+      "name" : "7420@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "aa866c90e40fe5ac",
+        "parentUid" : "1af7f247f66cba670fb2b7b2980ac0ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564424563423,
+          "stop" : 1564424564609,
+          "duration" : 1186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "1af7f247f66cba670fb2b7b2980ac0ab"
+    }, {
+      "name" : "19584@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "201901bea918ef44",
+        "parentUid" : "b756b3d5a43ccf934500c7413122c9db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564424207595,
+          "stop" : 1564424207637,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "b756b3d5a43ccf934500c7413122c9db"
+    }, {
+      "name" : "10092@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "de81d3deda60cdb1",
+        "parentUid" : "9f62c0a598472c00bd33c35fa00a6b75",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564438780206,
+          "stop" : 1564438784262,
+          "duration" : 4056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "9f62c0a598472c00bd33c35fa00a6b75"
+    }, {
+      "name" : "19372@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "b55fe3646ad1bd7c",
+        "parentUid" : "8120d81651e1c0da9d77f6a79d7a0bd3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1564439976213,
+          "stop" : 1564439982804,
+          "duration" : 6591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "8120d81651e1c0da9d77f6a79d7a0bd3"
+    }, {
+      "name" : "3136@E0438480.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "430b570c5c98eaf7",
+        "parentUid" : "65f0a40f4dad8cc313709bda98242f4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564439052249,
+          "stop" : 1564439058348,
+          "duration" : 6099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+      } ],
+      "uid" : "65f0a40f4dad8cc313709bda98242f4b"
+    } ],
+    "uid" : "5eab023521c7af7b2494796ff19c78a0"
+  } ]
+}

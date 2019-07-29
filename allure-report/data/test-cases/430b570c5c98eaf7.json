@@ -1,0 +1,157 @@
+{
+  "uid" : "430b570c5c98eaf7",
+  "name" : "test",
+  "fullName" : "AppTest.test",
+  "historyId" : "8b4486bdcf1f2089f2458f8e136f27e5",
+  "time" : {
+    "start" : 1564439052249,
+    "stop" : 1564439058348,
+    "duration" : 6099
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1564439024314,
+      "stop" : 1564439051989,
+      "duration" : 27675
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUpBeforeClass",
+    "time" : {
+      "start" : 1564439024202,
+      "stop" : 1564439024304,
+      "duration" : 102
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1564439058798,
+      "stop" : 1564439064227,
+      "duration" : 5429
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "tearDownAfterClass",
+    "time" : {
+      "start" : 1564439058790,
+      "stop" : 1564439058790,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "AppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AppTest"
+  }, {
+    "name" : "host",
+    "value" : "E0438480"
+  }, {
+    "name" : "thread",
+    "value" : "3136@E0438480.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "APPIUM_VERSION",
+    "value" : "1.9.1"
+  }, {
+    "name" : "AUTOMATION_NAME",
+    "value" : "Appium"
+  }, {
+    "name" : "DEVICE_NAME",
+    "value" : "emulator-5554"
+  }, {
+    "name" : "PLATFORM_NAME",
+    "value" : "Android"
+  }, {
+    "name" : "PLATFORM_VERSION",
+    "value" : "7"
+  }, {
+    "name" : "appActivity",
+    "value" : "com.vodafone.aeyejenkins.MainActivity"
+  }, {
+    "name" : "appPackage",
+    "value" : "com.vodafone.aeyejenkins"
+  }, {
+    "name" : "bundleId",
+    "value" : ""
+  }, {
+    "name" : "host",
+    "value" : "http://127.0.0.1:4723/wd/hub"
+  }, {
+    "name" : "platform",
+    "value" : "native-android"
+  }, {
+    "name" : "udid",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "430b570c5c98eaf7.json",
+  "parameterValues" : [ "1.9.1", "Appium", "emulator-5554", "Android", "7", "com.vodafone.aeyejenkins.MainActivity", "com.vodafone.aeyejenkins", "", "http://127.0.0.1:4723/wd/hub", "native-android", "" ]
+}

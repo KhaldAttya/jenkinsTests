@@ -1,0 +1,1 @@
+{"uuid":"b4214e22-8b5c-4b60-b88c-4682a4c2f1ee","name":"UI Test","children":["b9d58909-929d-41c2-8e5b-e61c32fe4f82"],"befores":[{"name":"setUpBeforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1564439948755,"stop":1564439948890}],"afters":[],"links":[],"start":1564439948599,"stop":1564439988393}

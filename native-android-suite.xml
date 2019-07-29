@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Test" parallel="false">
+    <parameter name="platform" value="native-android"></parameter>
+    <parameter name="DEVICE_NAME" value="emulator-5554"></parameter>
+    <test name="Test">
+        <parameter name="APPIUM_VERSION" value="1.9.1"></parameter>
+        <parameter name="PLATFORM_VERSION" value="7"></parameter>
+        <parameter name="PLATFORM_NAME" value="Android"></parameter>
+        <parameter name="AUTOMATION_NAME" value="Appium"></parameter>
+        <parameter name="DEVICE_NAME" value="emulator-5554"></parameter>
+        <parameter name="udid" value=""></parameter>
+        <parameter name="appActivity" value="com.vodafone.aeyejenkins.MainActivity"></parameter>
+        <parameter name="appPackage" value="com.vodafone.aeyejenkins"></parameter>
+        <parameter name="bundleId" value=""></parameter>
+        <parameter name="host" value="http://127.0.0.1:4723/wd/hub"></parameter>
+        <classes>
+            <class name="AppTest"></class>
+        </classes>
+    </test>
+</suite>

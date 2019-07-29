@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [UI Test]">
+  <parameter name="DEVICE_NAME" value="emulator-5554"/>
+  <parameter name="platform" value="native-android"/>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <parameter name="appActivity" value="com.vodafone.aeyejenkins.MainActivity"/>
+    <parameter name="appPackage" value="com.vodafone.aeyejenkins"/>
+    <parameter name="PLATFORM_VERSION" value="7"/>
+    <parameter name="PLATFORM_NAME" value="Android"/>
+    <parameter name="bundleId" value=""/>
+    <parameter name="host" value="http://127.0.0.1:4723/wd/hub"/>
+    <parameter name="DEVICE_NAME" value="emulator-5554"/>
+    <parameter name="AUTOMATION_NAME" value="Appium"/>
+    <parameter name="APPIUM_VERSION" value="1.9.1"/>
+    <parameter name="udid" value=""/>
+    <classes>
+      <class name="AppTest">
+        <methods>
+          <include name="test"/>
+          <include name="tearDownAfterClass"/>
+          <include name="setUp"/>
+          <include name="setUpBeforeClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AppTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [UI Test] -->
