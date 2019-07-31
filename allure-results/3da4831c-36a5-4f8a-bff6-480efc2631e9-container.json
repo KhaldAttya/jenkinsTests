@@ -1,1 +1,0 @@
-{"uuid":"3da4831c-36a5-4f8a-bff6-480efc2631e9","name":"AppTest","children":["67b86329-3e0c-43d2-ad98-a36c62264fd6"],"befores":[],"afters":[{"name":"tearDownAfterClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1564439269153,"stop":1564439269154}],"links":[],"start":1564439223640,"stop":1564439279445}
