@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 53.911 s <<< FAILURE! - in TestSuite
-test(AppTest)  Time elapsed: 7.811 s  <<< FAILURE!
-java.lang.AssertionError: UI issue is found
-	at AppTest.test(AppTest.java:16)
-
