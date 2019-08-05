@@ -13,7 +13,9 @@ Aeye.takeAppScreenshot(driver,ObjectRepo.statusBar,actualRepo+"content.png");
 
 if (!Aeye.compareImages(actualRepo+"content.png",expectedRepo+"content.png",resultRepo+"content.png")){
    reportResult(resultRepo+"content.png");
-    Assert.fail("UI issue is found");
+  Assert.fail("UI issue is found");
+
+
 
 }
 
